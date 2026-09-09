@@ -1,1 +1,192 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A distinctive local concept designed to feel unmistakably its own."><title>Cafe Aktaion Stoupa</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Fraunces:wght@500;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@500;700&family=Space+Mono&family=Cormorant+Garamond:wght@500;600;700&display=swap');:root{--bg:#101215;--fg:#f2f2ef;--a:#8fd3ff;--font1:Space Mono,monospace;--font2:Inter,Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font2);line-height:1.55}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}.nav{display:flex;justify-content:space-between;align-items:center;padding:26px 0;gap:20px}.brand{font-family:var(--font1);font-size:24px}.navlinks{display:flex;gap:22px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}.btn{display:inline-block;padding:13px 18px;background:var(--a);color:var(--bg);font-weight:700;border-radius:999px}.hero{min-height:82vh;display:grid;align-items:end;padding:70px 0 55px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;inset:12% -15% -30%;background:radial-gradient(circle at 65% 45%,var(--a),transparent 42%);opacity:.25;filter:blur(20px);pointer-events:none}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.18em;opacity:.65}h1{font-family:var(--font1);font-size:clamp(64px,11vw,150px);line-height:.84;letter-spacing:-.055em;max-width:1050px;margin:18px 0;position:relative;z-index:1}.lead{font-size:clamp(18px,2vw,25px);max-width:650px;position:relative;z-index:1}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px;position:relative;z-index:1}section{padding:100px 0;border-top:1px solid color-mix(in srgb,var(--fg) 16%,transparent)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border:1px solid color-mix(in srgb,var(--fg) 18%,transparent);min-height:190px;border-radius:22px}.card b{font-family:var(--font1);font-size:27px}.bigquote{font-family:var(--font1);font-size:clamp(38px,6vw,82px);line-height:.98;max-width:980px}.split{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.num{font-family:var(--font1);font-size:70px;color:var(--a)}footer{padding:55px 0 80px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}@media(max-width:760px){.navlinks{display:none}.grid,.split{grid-template-columns:1fr}h1{font-size:62px}section{padding:70px 0}} </style></head><body><header class="wrap nav"><div class="brand">Cafe Aktaion Stoupa</div><nav class="navlinks"><a href="#01">01</a><a href="#02">02</a><a href="#03">03</a></nav></header><main><section class="wrap hero"><div><div class="eyebrow">Taste / field notes</div><h1>COME<br>CURIOUS.</h1><p class="lead">A distinctive local concept designed to feel unmistakably its own.</p><a class="btn" href="#01">Discover the place</a></div></section><section id="01"><div class="wrap split"><div><div class="eyebrow">01 — Arrival</div><h2 style="font-family:var(--font1);font-size:60px">One strong idea.</h2></div><p class="lead">The first screen sets the tone immediately, using scale and restraint instead of clutter.</p></div></section><section id="02"><div class="wrap split"><p class="lead">02 — Details<br><br>Build the middle of the page around real content: the offer, the atmosphere, the practical information and the reasons to choose this place.</p><div><div class="eyebrow">02 — Details</div><h2 style="font-family:var(--font1);font-size:60px">Nothing extra.</h2></div></div></section><section id="03"><div class="wrap"><div class="eyebrow">03 — Action</div><p class="bigquote">When the visitor is ready, the route is obvious.</p><a class="btn" href="mailto:?subject=Enquiry%20for%20Cafe Aktaion Stoupa">Contact</a></div></section></main><footer class="wrap"><span>Cafe Aktaion Stoupa</span><span>Designed from scratch</span></footer><script>document.querySelectorAll("a[href^=\"#\"]").forEach(a=>a.addEventListener("click",()=>document.body.dataset.nav="used"));</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Café Aktaion Stoupa</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A distinctive local concept designed to feel unmistakably its own.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --color-bg:#0a0e12;
+  --color-fg:#f5f5f5;
+  --color-accent:#8fd3ff;
+  --font-sans:Inter,system-ui,sans-serif;
+  --font-mono:Space Mono,monospace;
+  --radius:12px;
+  --transition:0.3s ease;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font-sans);
+  background:var(--color-bg);
+  color:var(--color-fg);
+  line-height:1.6;
+}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+button:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+img,svg{max-width:100%;height:auto}
+header,footer{padding:1rem}
+.container{max-width:1120px;margin:auto;padding:0 1rem}
+nav{display:flex;justify-content:space-between;align-items:center}
+.brand{
+  font-family:var(--font-mono);
+  font-size:1.5rem;
+  font-weight:700;
+}
+.nav-list{
+  display:flex;gap:1.5rem;
+  list-style:none;
+}
+.nav-list a{
+  font-size:.875rem;
+  text-transform:uppercase;
+  letter-spacing:.07em;
+}
+button{
+  cursor:pointer;
+  border:none;
+  background:var(--color-accent);
+  color:var(--color-bg);
+  padding:.75rem 1.5rem;
+  border-radius:999px;
+  font-weight:700;
+  transition:background var(--transition);
+}
+button:hover,button:focus-visible{background:#71b8e6}
+section{padding:4rem 0;border-top:1px solid rgba(255,255,255,.08)}
+h1,h2{font-family:var(--font-mono);margin:0}
+h1{font-size:clamp(3rem,10vw,8rem);line-height:1;letter-spacing:-.04em}
+h2{font-size:clamp(2rem,6vw,4rem)}
+p{margin-top:.75rem}
+.hero{
+  min-height:80vh;
+  display:grid;
+  place-items:center;
+  position:relative;
+  overflow:hidden;
+  text-align:center;
+}
+.hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:radial-gradient(circle at 30% 30%,var(--color-accent),transparent 60%);
+  opacity:.15;
+  filter:blur(80px);
+}
+.hero .eyebrow{
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  opacity:.7;
+}
+.hero .lead{
+  max-width:45ch;
+  margin:auto;
+  font-size:clamp(1rem,2.5vw,1.25rem);
+}
+.hero .cta{
+  margin-top:2rem;
+}
+.split{
+  display:grid;
+  gap:2rem;
+  grid-template-columns:1fr 1fr;
+}
+@media(max-width:768px){
+  .nav-list{display:none}
+  .split{grid-template-columns:1fr}
+}
+svg.decor{
+  position:absolute;
+  pointer-events:none;
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to main content</a>
+<header class="container">
+  <nav aria-label="Primary navigation">
+    <div class="brand">Café Aktaion Stoupa</div>
+    <ul class="nav-list">
+      <li><a href="#arrival">Arrival</a></li>
+      <li><a href="#details">Details</a></li>
+      <li><a href="#action">Action</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <svg class="decor" width="400" height="400" viewBox="0 0 400 400" aria-hidden="true">
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="var(--color-accent)" stop-opacity=".6"/>
+          <stop offset="100%" stop-color="transparent"/>
+        </linearGradient>
+      </defs>
+      <circle cx="200" cy="200" r="180" fill="url(#grad)"/>
+    </svg>
+    <div>
+      <p class="eyebrow">Taste / field notes</p>
+      <h1>COME<br>CURIOUS.</h1>
+      <p class="lead">A distinctive local concept designed to feel unmistakably its own.</p>
+      <div class="cta">
+        <button onclick="document.getElementById('arrival').scrollIntoView({behavior:'smooth'});">Discover the place</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="arrival" class="container">
+    <div class="split">
+      <div>
+        <p class="eyebrow">01 — Arrival</p>
+        <h2>One strong idea.</h2>
+      </div>
+      <p class="lead">The first screen sets the tone immediately, using scale and restraint instead of clutter.</p>
+    </div>
+  </section>
+
+  <section id="details" class="container">
+    <div class="split">
+      <p class="lead"><strong>02 — Details</strong><br><br>Build the middle of the page around real content: the offer, the atmosphere, the practical information and the reasons to choose this place.</p>
+      <div>
+        <p class="eyebrow">02 — Details</p>
+        <h2>Nothing extra.</h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="action" class="container">
+    <p class="eyebrow">03 — Action</p>
+    <h2 style="font-size:clamp(2rem,6vw,4rem);">When the visitor is ready, the route is obvious.</h2>
+    <p class="lead">Feel free to reach out for more information.</p>
+    <button onclick="location.href='mailto:?subject=Enquiry%20for%20Café%20Aktaion%20Stoupa'">Contact</button>
+  </section>
+</main>
+
+<footer class="container">
+  <p>Café Aktaion Stoupa</p>
+  <p>Designed from scratch</p>
+</footer>
+
+<script>
+/* Minimal script for keyboard navigation hint */
+document.querySelectorAll('a[href^="#"]').forEach(link=>{
+  link.addEventListener('click',e=>{
+    e.preventDefault();
+    const target=document.querySelector(link.getAttribute('href'));
+    if(target){target.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
